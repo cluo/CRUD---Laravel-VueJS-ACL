@@ -11,3 +11,10 @@ Senha admin: 123456
 
 Usuário autor: autor@autor.com
 Senha autor: 123456
+
+## Informe sobre o ACL
+O ACL poderá ser customizado no futuro, devido a falta das telas, não há como relacionar as permissões: visualizar, criar, editar e deletar a alguma regra: admin ou autor. Defini no banco de dados diretamente as permissões para o autor, onde ele poderá somente criar estados.
+
+Em diante, irei lançar a tela de relacionamento das regras e permissões, e usuários e regras.
+
+Encontra-se funcional o ACL, onde é verificado as permissão de acordo com cada regra e usuário relacionado.
