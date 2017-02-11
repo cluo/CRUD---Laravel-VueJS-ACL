@@ -10,6 +10,12 @@ Deverá ser feito a criação do banco de dados e logo, a configuração do arqu
 * `php artisan db:seed`
 
 Será criado as tabelas e logo o conteúdo de exemplo com os usuários e senhas.
+Configure o arquivo .env com as informações da sua conexão com o banco de dados, usuário, senha e banco.
+
+## Instalação manual
+Existe um arquivo na raiz onde se chama 'database.sql', crie primeiro o seu banco de dados e depois abra ele e clique em importar por meio do phpmyadmin ou outro programa ao seu desejo para importar o arquivo 'database.sql' para o banco de dados.
+
+Configure o arquivo .env com as informações da sua conexão com o banco de dados, usuário, senha e banco.
 
 ## Contas do site
 Usuário admin: admin@admin.com
