@@ -16,6 +16,7 @@ class APIController extends Controller
 {
     public function __construct(EloquentEstado $estado)
     {
+        $this->middleware('auth');
         $this->estado = $estado;
     }
 
