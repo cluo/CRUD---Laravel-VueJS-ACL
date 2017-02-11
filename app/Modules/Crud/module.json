@@ -1,0 +1,6 @@
+{
+    "name": "Crud",
+    "slug": "crud",
+    "version": "1.0",
+    "description": "Modulo principal do CRUD dos Estados e Cidades do Brasil."
+}
